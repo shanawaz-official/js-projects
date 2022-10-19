@@ -1,49 +1,27 @@
-let menuIcon=document.querySelector('.menu-box');
-
-let mainDiv=document.querySelector('#main');
-
-//menuIcon.addEventListener("click",()=>{
-  //console.log("hi")
-//});
-
 function run(){
-  prompt("run")
-  //mainDiv.setAttribute('class','main2');
-  //mainDiv.style.bottom == "-10px";
-  mainDiv.className="main2";
-};
-  
-  /*mainDiv.
-     if (mainDiv.style.bottom == "570px"){
-       mainDiv.style.bottom == "-10px"
-     }
-     else {
-       mainDiv.style.bottom == "570px"
-     }
-  
-};
-
-if (menuIcon) {
-  menuIcon.addEventListener('click', ()=> {
-    prompt("hu");
-    if (mainDiv.style.bottom=="570px") {
-      mainDiv.style.bottom=="-10px"
-    }
-    else{
-      mainDiv.style.bottom=="570px"
-    }
-  });
+  let menuIcon=document.querySelector('.menuIcon');
+ let main=document.querySelector('#main');
+ 
+ if (main.style.bottom='-65px') {
+    main.style.bottom='570px'
+ } 
+ 
+ menuIcon.style.display='none';
 }
 
-// ✅ Using optional chaining (?.)
-menuIcon?.addEventListener('click', ()=> {
-  prompt("hu");
-      if (mainDiv.style.bottom == "570px") {
-        mainDiv.style.bottom == "-10px"
-      }
-      else {
-        mainDiv.style.bottom == "570px"
-      }
-});*/
+// anchor logic
+function fbOpen() {
+  window.open("https://m.facebook.com/")
+}
 
+function instaOpen() {
+  window.open("https://www.instagram.com/")
+}
 
+function ytOpen() {
+  window.open("https://m.youtube.com/")
+}
+
+function gOpen() {
+  window.open("https://www.google.com/")
+}
